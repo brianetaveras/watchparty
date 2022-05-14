@@ -8,7 +8,8 @@ RUN npm install
 
 COPY ./ ./
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "buildServer"]
+CMD ["npm", "run", "server"]
 
 
 EXPOSE 8080
